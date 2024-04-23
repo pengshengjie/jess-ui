@@ -1,0 +1,3 @@
+type htmlType = {
+    htmlType: string
+}

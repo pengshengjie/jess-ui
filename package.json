@@ -1,0 +1,29 @@
+{
+  "name": "jess-ui",
+  "version": "1.0.0",
+  "description": "headless component",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ui",
+    "headless"
+  ],
+  "author": "codingj",
+  "license": "MIT",
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwind-merge": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.6.3"
+  }
+}
